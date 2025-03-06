@@ -35,6 +35,6 @@ public class Rechner {
         System.out.println(rechner.mul(new BigDecimal(2.3456),new BigDecimal(3.4567)));
 
         System.out.println("Dividieren:");
-        System.out.println(rechner.div(new BigDecimal(10),new BigDecimal(2)));
+        System.out.println(rechner.div(new BigDecimal(20),new BigDecimal(5)));
     }
 }
