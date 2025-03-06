@@ -25,18 +25,16 @@ public class Rechner {
     }
     public static void test(){
         Rechner rechner=new Rechner();
-        System.out.println("\nTest:"  + "\nPlus" + "\n(2.3456+3.4567 = 5.8023 = 5.80) erwartet");
+        System.out.println("Plus:");
         System.out.println(rechner.plus(new BigDecimal(2.3456),new BigDecimal(3.4567)));
 
-        System.out.println("Minus" + "\n(2. - 3.4567 = -1.1111 = -1.11) erwartet");
+        System.out.println("Minus:");
         System.out.println(rechner.minus(new BigDecimal(2.3456),new BigDecimal(3.4567)));
 
-        System.out.println("Multiplizieren:" + "\n(2.3456 * 3.4567 = 8,10803552 = 8.11) erwartet");
+        System.out.println("Multiplizieren:");
         System.out.println(rechner.mul(new BigDecimal(2.3456),new BigDecimal(3.4567)));
 
-        System.out.println("Dividieren:" + "\n(10 / 2 = 5.00) erwartet");
+        System.out.println("Dividieren:");
         System.out.println(rechner.div(new BigDecimal(10),new BigDecimal(2)));
-
-        System.out.println("--------------------------------------------------------------------------------------");
     }
 }
